@@ -29,7 +29,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     background: none;
 }
 nav ul li a:hover{
@@ -38,11 +38,26 @@ nav ul li a:hover{
 
 
 .content{
-    margin-top: 80px;
+    margin-top: 100px;
+    flex-direction: row;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    row-gap: 30px;
+    row-gap: 100px;    
+}
+.description{
+    height: var(--height);
+    width: 500px;
+    background: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+h1{
+    font-size: 25px;
+    text-align: justify;
+    background: none;
+    font-weight: 300;
 }
 :root{
     --height: calc(800px * 0.6);
